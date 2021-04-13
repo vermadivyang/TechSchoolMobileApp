@@ -1,0 +1,28 @@
+import React from 'react';
+import { StyleSheet, Text, View, ImageBackground, ScrollView, Image, Linking, Button, TouchableOpacity } from 'react-native';
+
+const Screen = props => {
+    return (
+<ScrollView style={{backgroundColor:'#e3ecff',}}>
+
+    <View></View>
+    <View style={styles}>
+
+       <Text style={{  fontSize: 50}}></Text>
+       <Text style={{  fontSize: 50}}></Text>
+
+
+       <Button title="Home" onPress={() => props.navigation.navigate('Home')}/> 
+       <Button title="Staff" onPress={() => props.navigation.navigate('About')}/> 
+       <Button title="Grades" onPress={() => props.navigation.navigate('Grades')}/> 
+      
+        </View>
+
+
+</ScrollView>
+    );
+};
+
+const styles = StyleSheet.create({});
+
+export default AboutScreen;
