@@ -1,5 +1,4 @@
-# My Universal React Project
-
+# Tech School Mobile App using React Native Libraries
 <p>
   <!-- iOS -->
   <a href="https://itunes.apple.com/app/apple-store/id982107779">
